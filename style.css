@@ -1,0 +1,117 @@
+body{
+    background-image: url(p.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:repeat;
+    font-family: Consolas, monospace;
+}
+.calc{
+    text-align:center;
+    margin: auto;
+    background-color: #627254;
+    border:5px solid black;
+    width: 30.5%;
+    height: 650px; 
+    border-radius: 25px;
+    box-shadow: 0 5px 40px black;
+}
+.maininput{
+    margin-top:80px;
+    background-color: #76885B;
+    border: 1px solid gray;
+    height: 60px;
+    width: 89%;
+    font-size: 50px;
+    text-align:right;
+    color: whitesmoke;
+    font-weight: 00;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    pointer-events: none;
+    border:5px solid black;
+    border-radius:15px;
+}
+.numbtn{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #E1D9D1;
+    color:black;
+}
+.numbtn:hover{
+    background-color: #DCD7C8;
+    color: black;
+}
+.calbtn{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #76885B;
+    color:white;
+    float:right;
+}
+.calbtn:hover{
+    background-color: black;
+    color: white;
+}
+.c{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #627254;
+    color:black;
+    float:right;     
+}
+.c:hover{
+    background-color:  #76885B;
+    color: #EEEEEE;
+}
+.equal{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #76885B;
+    color:white;
+}
+.equal:hover{
+    background-color: black;
+    color: white;
+}
+h2{
+    color:black;
+    font-size:x-large;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:20px;
+    border:2px solid black;
+    width:60%;
+    margin-left:72px;
+    text-align:center;
+    margin-top:35px;
+    border-radius:5px;
+}
+
+.numbtn,
+.calbtn,
+.c,
+.equal {
+    padding: 25px 30px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: medium;
+    transition: transform 0.2s ease;
+    margin: 5px;
+}
+.numbtn:hover,
+.calbtn:hover,
+.c:hover,
+.equal:hover {
+    transform: translateY(2px);
+}
+.numbtn:active,
+.calbtn:active,
+.c:active,
+.equal:active {
+    transform: translateY(4px);
+}
